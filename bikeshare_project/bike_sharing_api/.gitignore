@@ -1,0 +1,22 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore wheel/distribution files
+*.whl
+dist/
+build/
+
+# Ignore trained models
+*.pkl
+
+# Ignore virtual environments
+.venv/
+env/
+venv/
+
+# Optional: IDE and OS-specific
+*.log
+.DS_Store
+.vscode/
+.idea/
