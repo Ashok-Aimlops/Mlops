@@ -78,6 +78,10 @@ jobs:
   push-image:
     needs: [train, test, build]
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: bikeshare_project/bike_sharing_api
+    
     steps:
     - name: Repo Checkout
       uses: actions/checkout@v2
