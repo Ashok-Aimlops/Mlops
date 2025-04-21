@@ -1,3 +1,3 @@
 # Mlops
-Learning the mlops and CI/CD pipline creation
+Learning the mlops,CI/CD pipline creation and docker.
 
